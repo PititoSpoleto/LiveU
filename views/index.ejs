@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <script type="module" src="../server.js"></script>
+    <meta charset="UTF-8" content="text/html">
+    <title>LiveU</title>
+</head>
+
+<body>
+    <div id="formulario">
+
+        <h2>Registrar<h2>
+                <h3>Insira os dados abaixo:</h3>
+
+                <form action="" method="POST">
+
+                    <input type="text" placeholder="Nome" id="nome">
+                    <input type="text" placeholder="Sobrenome" id="sobrenome">
+                    <input type="text" placeholder="Email" id="email">
+
+                    <button type="submit" id="botao">Cadastrar</button>
+
+                </form>
+    </div>
+
+    <div id="tabela">
+        <br><br>
+        <h2>Retorno dados:</h2>
+
+        <table id="exibirDados" border="">
+            <thead>
+                <tr>
+                    <td><strong>Animal</strong></td>
+                    <td><strong>País</strong></td>
+                    <td><strong>Cor</strong></td>
+                </tr>
+                <tr>
+                    <td><p id="animal"></p></td>
+                    <td><p id="pais"></p></td>
+                    <td><p id="cor"></p></td>
+                </tr>
+            </thead>
+        </table>
+
+    </div>
+</body>
+
+</html>
